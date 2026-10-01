@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Allow the local app window to use backup storage and file dialogs.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "fs:allow-mkdir",
+    "fs:allow-read-dir",
+    "fs:allow-remove",
+    "fs:allow-write-text-file",
+    { "identifier": "fs:scope", "allow": [{ "path": "$APPDATA/backups" }, { "path": "$APPDATA/backups/**" }] }
+  ]
+}

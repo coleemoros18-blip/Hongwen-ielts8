@@ -1,0 +1,28 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+src-tauri/target/
+src-tauri/gen/
+.cargo/
+
+# Local user data, signing material, and release artifacts
+inst_user_settings.tmp
+data-backups/
+releases/
+signing/
+build-resources/
+project-records/
+README-PROJECT-HANDOFF.md
+*.exe
+*.msi
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+.env
+.env.*
+!.env.example
+.DS_Store
