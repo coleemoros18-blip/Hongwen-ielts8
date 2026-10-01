@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
+  <title id="title">弘文雅思8分 软件功能图例</title>
+  <desc id="desc">弘文雅思8分桌面与手机界面的功能示意：今日计划、初记、休闲记忆、强化复习、句库中心和本地数据保存。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f2e4"/><stop offset="1" stop-color="#eee7d5"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#62866b"/><stop offset="1" stop-color="#476b54"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4a4638" flood-opacity=".10"/></filter>
+    <style>
+      .sans{font-family:'Microsoft YaHei','Noto Sans SC',Arial,sans-serif}.serif{font-family:'Noto Serif SC','Songti SC',serif}
+      .ink{fill:#1d2922}.muted{fill:#7a8278}.green{fill:#52765b}.tiny{font-size:12px;letter-spacing:2px}
+      .card{fill:#fffdf8;stroke:#e7dfcd;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1440" height="1040" rx="28" fill="url(#paper)"/>
+  <text x="76" y="74" class="sans tiny green">HONGWEN IELTS STUDY DESK · V1.18</text>
+  <text x="76" y="132" class="serif ink" font-size="38" font-weight="700">弘文雅思8分</text>
+  <text x="76" y="169" class="sans muted" font-size="17">个人英语句子记忆 · 本地图书库 · 学习进度保存在本机</text>
+  <rect x="1186" y="70" width="178" height="42" rx="21" fill="#e2eadf"/>
+  <circle cx="1210" cy="91" r="6" fill="#5c9166"/>
+  <text x="1227" y="97" class="sans green" font-size="14">无需账号 · 离线可用</text>
+  <line x1="76" y1="204" x2="1364" y2="204" stroke="#ddd4c1"/>
+  <!-- sidebar -->
+  <rect x="76" y="238" width="238" height="720" rx="20" fill="#eee8d9" stroke="#e3dac7"/>
+  <rect x="96" y="262" width="46" height="46" rx="14" fill="url(#green)"/>
+  <text x="108" y="294" class="serif" fill="#fff" font-size="25" font-weight="700">弘</text>
+  <text x="154" y="281" class="sans ink" font-size="16" font-weight="700">学习空间</text>
+  <text x="154" y="301" class="sans muted" font-size="11">IELTS STUDY STUDIO</text>
+  <text x="100" y="350" class="sans muted tiny" font-size="10">学习模块</text>
+  <g class="sans" font-size="16">
+    <rect x="91" y="371" width="207" height="48" rx="13" fill="#dfe8dc"/>
+    <rect x="91" y="371" width="4" height="48" rx="2" fill="#63866a"/>
+    <text x="112" y="402" class="green">◷</text><text x="144" y="402" class="green" font-weight="700">今日计划</text>
+    <text x="112" y="466" class="muted">✎</text><text x="144" y="466" class="ink">初记</text>
+    <text x="112" y="530" class="muted">☼</text><text x="144" y="530" class="ink">休闲记忆</text>
+    <text x="112" y="594" class="muted">↻</text><text x="144" y="594" class="ink">强化复习</text>
+    <text x="112" y="658" class="muted">▤</text><text x="144" y="658" class="ink">句库中心</text>
+    <text x="112" y="722" class="muted">↺</text><text x="144" y="722" class="ink">错句本</text>
+    <text x="112" y="786" class="muted">▥</text><text x="144" y="786" class="ink">学习统计</text>
+    <text x="112" y="850" class="muted">⚙</text><text x="144" y="850" class="ink">设置与备份</text>
+  </g>
+  <rect x="96" y="895" width="198" height="42" rx="12" fill="#f8f6ee" stroke="#e3dac7"/>
+  <circle cx="113" cy="916" r="5" fill="#6b9b70"/>
+  <text x="127" y="921" class="sans muted" font-size="12">学习数据仅保存在本机</text>
+  <!-- Main dashboard -->
+  <rect x="338" y="238" width="690" height="720" rx="20" class="card" filter="url(#shadow)"/>
+  <text x="372" y="278" class="sans tiny muted">TODAY'S PLAN</text>
+  <text x="372" y="316" class="serif ink" font-size="26" font-weight="700">今日计划</text>
+  <text x="372" y="343" class="sans muted" font-size="13">从今天的一句开始，按计划复习到期内容。</text>
+  <rect x="372" y="371" width="622" height="248" rx="18" fill="url(#green)"/>
+  <text x="406" y="414" class="sans" fill="#d4e1d1" font-size="13" letter-spacing="3">A LITTLE PRACTICE, EVERY DAY</text>
+  <text x="406" y="474" class="serif" fill="#fffdf8" font-size="32" font-weight="700">今天记住一句。</text>
+  <text x="406" y="511" class="sans" fill="#e0e8dd" font-size="15">不用赶进度，把注意力放在眼前这一句就好。</text>
+  <circle cx="890" cy="485" r="57" fill="#f7f5ed"/>
+  <text x="890" y="469" class="sans muted" text-anchor="middle" font-size="13">今日待复习</text>
+  <text x="890" y="510" class="sans green" text-anchor="middle" font-size="34" font-weight="700">9</text>
+  <rect x="406" y="546" width="177" height="48" rx="12" fill="#f7f5ed"/>
+  <text x="494" y="576" class="sans green" text-anchor="middle" font-size="15" font-weight="700">开始今日练习 →</text>
+  <g>
+    <rect x="372" y="641" width="194" height="96" rx="16" fill="#f5f2e9" stroke="#ece5d7"/>
+    <rect x="582" y="641" width="194" height="96" rx="16" fill="#f5f2e9" stroke="#ece5d7"/>
+    <rect x="792" y="641" width="202" height="96" rx="16" fill="#f5f2e9" stroke="#ece5d7"/>
+    <text x="395" y="675" class="sans muted" font-size="13">句库句子</text><text x="395" y="715" class="sans ink" font-size="27" font-weight="700">99</text>
+    <text x="605" y="675" class="sans muted" font-size="13">已经熟练</text><text x="605" y="715" class="sans ink" font-size="27" font-weight="700">24</text>
+    <text x="815" y="675" class="sans muted" font-size="13">今日待练</text><text x="815" y="715" class="sans ink" font-size="27" font-weight="700">9</text>
+  </g>
+  <text x="372" y="786" class="sans tiny muted">TODAY'S ROUTINE</text>
+  <text x="372" y="824" class="serif ink" font-size="24" font-weight="700">今日安排</text>
+  <text x="372" y="854" class="sans muted" font-size="14">到期优先，再复习模糊的，最后认识新句。</text>
+  <rect x="372" y="881" width="622" height="50" rx="12" fill="#fbfaf5" stroke="#ece5d7"/>
+  <text x="395" y="912" class="sans ink" font-size="14">01　Challenges make life interesting.</text>
+  <text x="966" y="912" class="sans green" text-anchor="end" font-size="12">新句</text>
+  <!-- learning panel -->
+  <rect x="1052" y="238" width="312" height="360" rx="20" class="card" filter="url(#shadow)"/>
+  <text x="1081" y="277" class="sans tiny muted">FIRST PASS</text>
+  <text x="1081" y="311" class="serif ink" font-size="22" font-weight="700">初记 · 根据中文回忆英文</text>
+  <text x="1081" y="340" class="sans muted" font-size="13">先看释义，自己写出英文原句</text>
+  <rect x="1081" y="362" width="254" height="90" rx="14" fill="#f6f1e5" stroke="#e9e0ce"/>
+  <text x="1208" y="395" class="sans muted" text-anchor="middle" font-size="13">中文释义</text>
+  <text x="1208" y="428" class="serif ink" text-anchor="middle" font-size="20" font-weight="700">挑战让生活更有趣</text>
+  <text x="1081" y="482" class="sans muted" font-size="12">写出英文原句</text>
+  <rect x="1081" y="494" width="254" height="52" rx="10" fill="#fffdf8" stroke="#d9d0bf"/>
+  <text x="1096" y="526" class="sans muted" font-size="12">在这里输入你的答案…</text>
+  <rect x="1081" y="559" width="254" height="24" rx="12" fill="#e5eee2"/>
+  <text x="1208" y="576" class="sans green" text-anchor="middle" font-size="11">输入后按 Enter 核对</text>
+  <!-- review panel -->
+  <rect x="1052" y="620" width="312" height="338" rx="20" class="card" filter="url(#shadow)"/>
+  <text x="1081" y="661" class="sans tiny muted">SPACED REVIEW</text>
+  <text x="1081" y="697" class="serif ink" font-size="22" font-weight="700">强化复习</text>
+  <text x="1081" y="725" class="sans muted" font-size="13">按间隔计划再次回忆已学句子</text>
+  <rect x="1081" y="751" width="254" height="66" rx="12" fill="#f5f2e9" stroke="#ece5d7"/>
+  <text x="1098" y="779" class="sans ink" font-size="14" font-weight="700">今天需要复习</text>
+  <text x="1098" y="802" class="sans muted" font-size="12">按句库查看到期组</text>
+  <rect x="1081" y="831" width="254" height="95" rx="12" fill="#fbfaf5" stroke="#ece5d7"/>
+  <text x="1098" y="860" class="sans tiny muted" font-size="10">间隔计划</text>
+  <text x="1098" y="890" class="sans green" font-size="15" font-weight="700">1 · 2 · 4 · 7 · 15 · 30 天</text>
+  <text x="1081" y="948" class="sans muted" font-size="11">句库 · 休闲记忆 · 统计 · 备份</text>
+  <text x="76" y="1005" class="sans muted" font-size="12">功能界面示意图 · 实际数据与进度保存在设备本地</text>
+</svg>
