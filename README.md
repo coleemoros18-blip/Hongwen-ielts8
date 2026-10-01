@@ -1,9 +1,27 @@
-# Hongwen-ielts8
-完全免费的雅思8分系统，帮助你快速拿下8雅思8分
+# 弘文雅思8分
 
+完全免费的个人雅思句子记忆工具。支持 Windows 桌面版、浏览器使用与 PWA 安装；学习内容保存在当前设备，不需要账号。
 
+## 软件图例
 
-# 句子记忆训练
+![弘文雅思8分功能图例](docs/software-overview.svg)
+
+图中展示今日计划、初记、强化复习和学习空间导航。其余功能包括休闲记忆、句库中心、错句本、学习统计以及本地备份。
+
+| 模块 | 用途 |
+| --- | --- |
+| 今日计划 | 汇总待复习数量与当天学习安排 |
+| 初记 | 根据中文释义回忆并输入英文原句 |
+| 休闲记忆 | 按设置的顺序与间隔自动展示中英文 |
+| 强化复习 | 按记忆间隔查看到期复习组 |
+| 句库中心 | 管理多个句库，添加句子或批量导入 |
+| 错句本 | 集中重新练习反复出错的句子 |
+| 学习统计 | 查看每日练习、趋势和热力图 |
+| 设置与备份 | 导出或恢复本地学习数据 |
+
+**Windows v1.18：** [下载 Windows 版](https://github.com/coleemoros18-blip/Hongwen-ielts8/releases/tag/v1.18)
+
+## 句子记忆训练
 
 Vue 3 + Vite + TypeScript，使用 Dexie/IndexedDB 保存全部学习数据；PWA 与 Tauri Windows 桌面版共用同一前端。无账号、无音频、无游戏。支持多句库独立进度、批量 `句子||释义||出处` 导入、浏览复习、四种回忆练习、字符级默写对照、错句本、ECharts 统计、JSON 备份恢复、离线缓存。
 
@@ -50,7 +68,7 @@ meta:        key
 
 此仓库已经包含最小 Tauri 2 配置（`src-tauri/`）；前端无分叉，桌面端通过 Tauri FS 插件在启动时将 IndexedDB 导出至应用数据目录 `backups/`，按文件名保留最近 7 份。需要 Rust stable/MSVC、Microsoft C++ Build Tools 和 WebView2 Runtime。
 
-Windows 初次配置：安装 Visual Studio Build Tools 的 **Desktop development with C++** 工作负载；安装 Rustup 并选择 `stable-x86_64-pc-windows-msvc`（或运行 `rustup default stable-msvc`）；确认 WebView2 Runtime 已安装。当前检查结果：本机已有 WebView2，但缺 Rust/Cargo 和 C++ Build Tools。
+Windows 初次配置：安装 Visual Studio Build Tools 的 **Desktop development with C++** 工作负载；安装 Rustup 并选择 `stable-x86_64-pc-windows-msvc`（或运行 `rustup default stable-msvc`）；确认 WebView2 Runtime 已安装。
 
 ```sh
 corepack enable
@@ -64,4 +82,3 @@ pnpm tauri build
 安装包输出在 `src-tauri/target/release/bundle/`（NSIS 安装器和 MSI）。调整应用名、发布者、图标和签名证书后再分发。PWA 图标由 `public/icon.svg` 提供；Tauri 窗口不依赖 PWA 安装能力。自动备份失败不会阻止学习，控制台会记录错误；重要数据仍可在设置页手动导出。
 
 Tauri 配置按官方 v2 Vite 静态前端和插件 FS 权限方式设置；文件权限限定到 `$APPDATA/backups/`，不要扩大成整个用户目录。
-
