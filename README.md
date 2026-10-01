@@ -1,3 +1,8 @@
+# Hongwen-ielts8
+完全免费的雅思8分系统，帮助你快速拿下8雅思8分
+
+
+
 # 句子记忆训练
 
 Vue 3 + Vite + TypeScript，使用 Dexie/IndexedDB 保存全部学习数据；PWA 与 Tauri Windows 桌面版共用同一前端。无账号、无音频、无游戏。支持多句库独立进度、批量 `句子||释义||出处` 导入、浏览复习、四种回忆练习、字符级默写对照、错句本、ECharts 统计、JSON 备份恢复、离线缓存。
@@ -59,3 +64,4 @@ pnpm tauri build
 安装包输出在 `src-tauri/target/release/bundle/`（NSIS 安装器和 MSI）。调整应用名、发布者、图标和签名证书后再分发。PWA 图标由 `public/icon.svg` 提供；Tauri 窗口不依赖 PWA 安装能力。自动备份失败不会阻止学习，控制台会记录错误；重要数据仍可在设置页手动导出。
 
 Tauri 配置按官方 v2 Vite 静态前端和插件 FS 权限方式设置；文件权限限定到 `$APPDATA/backups/`，不要扩大成整个用户目录。
+
